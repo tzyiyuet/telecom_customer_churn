@@ -16,3 +16,4 @@ The table of content is created as the following:
 4. [Description Analysis](https://github.com/tzyiyuet/telecom_customer_churn/blob/master/4.%20description%20analysis.md)
 5. [Results](https://github.com/tzyiyuet/telecom_customer_churn/blob/master/5.%20results.md)
 6. [Discussion](https://github.com/tzyiyuet/telecom_customer_churn/blob/master/6.%20discussion.md)
+7. [Python Code](https://github.com/tzyiyuet/telecom_customer_churn/blob/master/customer%20churn.py)
