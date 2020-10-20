@@ -138,7 +138,7 @@ churn = telecommunication['Churn']
 churn_rate = churn[churn == 0].count()/churn.count()
 print(churn_rate)
 
-# graph for each variable 
+# graphs for each variable 
 def draw_qualitative(column):
     pic_name_bar = 'churn_' + column + '_bar' + '.png'
     pic_name_pie = 'churn_' + column + '_pie' + '.png'
@@ -182,7 +182,7 @@ for i in column_name2:
 for i in quantitative:
     draw_quantitative(i)
 
-# graph for service 
+# graphs for service 
 column_service = temp_churn.copy()
 column_service_all = column_service.iloc[:, 9:15]
 column_service_dsl = column_service[column_service.InternetService == 'DSL'].iloc[:, 9:15]
